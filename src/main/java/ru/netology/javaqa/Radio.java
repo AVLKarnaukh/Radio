@@ -9,6 +9,10 @@ public class Radio {
 
     private int currentRadioStation = minRadioStation;
 
+    public Radio() {
+
+    }
+
     public Radio(int minRadioStation, int maxRadioStation) {
         this.minRadioStation = minRadioStation;
         this.maxRadioStation = maxRadioStation;
