@@ -10,16 +10,22 @@ public class Radio {
     private int currentRadioStation = minRadioStation;
 
 
-    public Radio(int minRadioStation, int maxRadioStation) {
-        this.minRadioStation = minRadioStation;
-        this.maxRadioStation = maxRadioStation;
-        this.currentRadioStation = minRadioStation;
+//    public Radio(int minRadioStation, int maxRadioStation) {
+//        this.minRadioStation = minRadioStation;
+//        this.maxRadioStation = maxRadioStation;
+//        this.currentRadioStation = minRadioStation;
+
+//    }
+
+    public Radio() {
+        System.out.println("Ретро ФМ");
 
     }
     public Radio(int size) {
         maxRadioStation = minRadioStation + size;
 
     }
+
 
 
 
