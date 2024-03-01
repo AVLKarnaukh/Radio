@@ -159,5 +159,13 @@ public class RadioTest {
         int actual = vol.getCurrentVolume();
         Assertions.assertEquals(expected, actual);
     }
+    @Test
+    public void rangeRadioStation() {
+        Radio vol = new Radio(9);
+        Assertions.assertEquals(0, vol.getMinRadioStation());
+        Assertions.assertEquals(9, vol.getMaxRadioStation());
+        Assertions.assertEquals(0, vol.getCurrentRadioStation());
+
+    }
 
 }
